@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+ul li {
+  list-style: none;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+li a {
+  text-decoration: none;
+}
+
 .grid-body {
   background-color: #35383a;
   width: 100%;
@@ -66,7 +81,7 @@ main {
 .flexbox {
   width: 70%;
   height: 33rem;
-  margin: 15vh auto;
+  margin: 8vh auto;
   background-color: hsl(0, 0%, 95%);
   display: flex;
   padding-top: 3rem;
